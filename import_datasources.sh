@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Replace these variables with your actual values
-token="eyJrIjoiZHFhODlGY2l6bGxVcGdyWmd4VmFqZVJnNndZeUplanAiLCJuIjoiYWRtaW4iLCJpZCI6MX0="
-host="172.16.10.206:3000"
+
+token = "<your-grafana-token>"
+host = "<ip-address>:<port>"
 
 
 for FILE in *.json*; do
